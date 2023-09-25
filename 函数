@@ -1,5 +1,4 @@
 //1.计算三角形面积的函数：
-javascript
 function calculateTriangleArea(base, height) {
   var area = 0.5 * base * height;
   return area;
@@ -7,7 +6,6 @@ function calculateTriangleArea(base, height) {
 //这个函数接受两个参数base和height，分别表示三角形的底边长和高。它通过计算底边长和高的乘积的一半得到三角形的面积，并将结果返回。
 
 //2.打印给定两个数值之间所有素数的函数：
-javascript
 function printPrimeNumbers(start, end = 100) {
   for (var i = start; i <= end; i++) {
     if (isPrime(i)) {
